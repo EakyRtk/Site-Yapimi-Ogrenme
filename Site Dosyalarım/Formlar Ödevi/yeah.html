@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset=UTF-8>
+		<title>Denemeler</title>
+		<style>
+			body{
+				background-color:#b9936c;
+				/* Görselin Gözükmemesi Durumunda Yukarıdaki Arkaplan Renki Çalışacak
+				*/
+				background-image:url('https://cdn.discordapp.com/attachments/275610920242380800/700029436904341544/4k_kalitesinde_arkaplan.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+  				background-size: cover;
+			}
+			table{
+			width:50%;
+			border-collapse:collapse;
+			}
+			th, td, table{
+				text-align:left;
+				border: 10px solid rgba(185, 147, 108,0.85);
+				background-color:rgba(230, 226, 211, 0.6);
+				height:45px;
+				color:black;
+				font-size:25px;
+				border-spacing:3px;
+				padding:3px;
+			}
+			th{
+				text-align:center;
+				font-size:25px;
+			}
+			input{
+				text-align:center;
+				font-size:30px;
+			}
+			p{
+				text-align:left;
+			}
+			button{
+				background-color:#b9936c;
+				border-color:#ada397;
+			}
+			input[type=submit]{
+				background-color:#b9936c;
+				border-color:#ada397;
+			}
+			input[type=number], input[type=text]{
+				background-color:rgba(230, 226, 211,0.2);
+			}
+		</style>
+	</head>
+	<body>
+		<br>
+		<center>
+			<table>
+			<tr>
+				<th colspan="2" style="font-size:40px;">Gerçekçi Savaş Simülatörü</th>
+			</tr>
+			<tr>
+				<th>Birinci Oyuncu</th>				
+  				<th>İkinci Oyuncu</th>	 				
+			</tr>
+			<tr>
+				<td>
+					<form>
+						Karakter İsmi:
+						<input type="text" name="isim">
+						<hr>
+
+						<p>Karakterinizin Sınıfını Seçiniz:</p>
+						<input type="radio" name="sınıf" value="yakınd"> Yakın Dövüşçü
+						<br>
+						<input type="radio" name="sınıf" value="menzil"> Okçu 
+						<br>
+						<input type="radio" name="sınıf" value="mızrak"> Mızraklı Savaşçı
+						<br>
+						<hr>
+						<!--Sınıf Değerlerinin Seçim Bitimi-->
+						Hasar Değeri:
+						<br>
+						<input type="number" name="hasar">
+						<br>
+						Savunma Değeri:
+						<br>
+						<input type="number" name="savunma">
+						<br>
+						Seviye Değeri:
+						<br>
+						<input type="number" name="seviye">
+						<br>
+						<hr>
+						<!-- Sayısal Girdilerin Sonu-->
+						
+						<center><input type="submit" value="SAVAŞA HAZIR!"></center>
+						<!--İlk Karakterin Form Girme Düğmesi-->
+						<br>
+					</form>
+				</td>
+				<!-- İkinci Karakter-->
+				<td> 
+					<form>
+						Karakter İsmi:
+						<input type="text" name="isim">
+						<hr>
+
+						<p>Karakterinizin Sınıfını Seçiniz:</p>
+						<input type="radio" name="sınıf" value="yakınd"> Yakın Dövüşçü
+						<br>
+						<input type="radio" name="sınıf" value="menzil"> Okçu 
+						<br>
+						<input type="radio" name="sınıf" value="mızrak"> Mızraklı Savaşçı
+						<br>
+						<hr>
+						<!--Sınıf Değerlerinin Seçim Bitimi-->
+						Hasar Değeri:
+						<br>
+						<input type="number" name="hasar">
+						<br>
+						Savunma Değeri:
+						<br>
+						<input type="number" name="savunma">
+						<br>
+						Seviye Değeri:
+						<br>
+						<input type="number" name="seviye">
+						<br>
+						<hr>
+						<!-- Sayısal Girdilerin Sonu-->
+						
+						<center><input type="submit" value="SAVAŞA HAZIR!"></center>
+						<!--İkinci Karakterin Form Girme Düğmesi-->
+						<br>
+				</td>
+			</tr>
+			<!-- Savaşı Simüle Etme Düğmesi Satırı-->
+			<tr>
+				<td colspan="2">
+				<br>
+				<center><button style="font-size:30px;"> SAVAŞI SİMÜLE ET!</button></center>
+				<br>
+				</td>
+			</tr>
+			<!-- -->
+		</table>
+
+		<br>
+
+		<table>
+			<tr>
+				<th style="font-size:40px;">KAZANAN</th>
+			</tr>
+			<tr>
+				<td><p style="text-align: center;">burada kazanan ismi olacak lel</p></td>
+			</tr>
+		</table>
+		</center>
+		<p style="text-align: center;"> Eski Flash Tabanlı Oyunlardan Esinlenilmiştir</p>
+	</body>
+</html>

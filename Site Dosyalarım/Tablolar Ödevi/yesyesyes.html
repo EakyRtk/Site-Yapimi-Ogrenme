@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset=UTF-8>
+		<title>Denemeler</title>
+		<style>
+			div{
+				background-color:#47476b;
+			}
+			h1{
+				text-align:center;
+				color:white;
+				font-size:50px;
+			}
+			h2{
+				color:white;
+				text-indent:45px;
+				background-color:#33334d;
+				text-decoration:underline;
+				font-size:35px;
+			}
+			img{
+				width:32px;
+				height:32px;
+			}
+			body{
+				background-color:#29293d;
+			}
+			table{
+				width:50%;
+				border-collapse:collapse;
+			}
+			
+			/* Default Değerler */
+			th, td{
+				text-align:left;
+				border: 3px solid #1f1f2e;
+				background-color: #34344c;
+				height:45px;
+				color: #f0f0f5;
+				font-size:25px;
+				border-spacing:10px;
+				padding:7px;
+			}
+			/* ----- */
+			
+				td.değer{
+					color:#ffff80;
+				}
+				td.nadir1{
+					color:#e0e0eb;
+				}
+				td.nadir2{
+					color:#ffb3ff;
+				}
+				td.nadir3{
+					color:#ff4da6;
+				}
+				td.savunmaD{
+					color:#99ff99;
+				}
+				td.hasarD{
+					color:#ff4d4d;
+				}
+				
+			/* Başlık Renklerinin Bulunduğu Kısım */
+			
+			th.nadirBaslik {
+				color:#ff0066;
+			}
+			
+			th.isimBaslik{
+				color:#6666ff;
+			}
+			th.değerBaşlık{
+				color:rgb(255, 255, 77);
+			}
+			th.hasarBaşlık{
+				color:#ff3333;
+			}
+			th.savunmaBaşlık{
+				color:#80ff80;
+			}
+			
+			/* ------- */
+	
+		</style>
+	</head>
+	<body>
+		<br>
+		<div>
+			<br>
+			<h1> Eşyalar Listesi </h1>
+			<br>
+		</div>
+		
+		<br><br>
+		
+		<h2>Genel Eşya Tablosu</h2>
+		
+		<table>
+			<!-- BAŞLIKLAR -->
+			<tr>
+				<th>Eşya Türü</th>
+				<th class="isimBaslik">Eşya İsmi</th>
+				<th class="hasarBaşlık">Eşya Hasarı</th>
+				<th class="savunmaBaşlık">Savunma Değeri</th>
+				<th class="değerBaşlık">Eşya Değeri</th>
+				<th class="nadirBaslik">Eşya Nadirliği</th>
+			</tr>
+			<!-- -->
+			<!-- Tek Elli Eşyaların Bulunduğu Kısımlar -->
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720986198802463/klc.png" alt="Kılıç Görseli"> Tek Elli</td>
+				<td>Demir Kılıç</td>
+				<td class="hasarD">20</td>
+				<td class="savunmaD">5</td>
+				<td class="değer">65G</td>
+				<td class="nadir2">Nadir</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720986198802463/klc.png" alt="Kılıç Görseli"> Tek Elli</td>
+				<td>Keskin Demir Kılıç</td>
+				<td class="hasarD">25</td>
+				<td class="savunmaD">6</td>
+				<td class="değer">85G</td>
+				<td class="nadir2">Nadir</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720986198802463/klc.png" alt="Kılıç Görseli"> Tek Elli</td>
+				<td>Çelik Kılıç</td>
+				<td class="hasarD">42</td>
+				<td class="savunmaD">8</td>
+				<td class="değer">100G</td>
+				<td class="nadir3">Efsane</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720986198802463/klc.png" alt="Kılıç Görseli"> Tek Elli</td>
+				<td>ZOPA</td>
+				<td class="hasarD">120000</td>
+				<td class="savunmaD">1000</td>
+				<td class="değer">Ödeyemezsin</td>
+				<td style="color:red">N/A</td>
+			</tr>
+			<!-- -->
+			<!-- Kalkanların Bulunduğu Kısım -->
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720982562078810/kalkan.png" alt="Tahta Kalkan"> Kalkan</td>
+				<td>Tahta Kalkan</td>
+				<td class="hasarD">1</td>
+				<td class="savunmaD">20</td>
+				<td class="değer">20G</td>
+				<td class="nadir1">Yaygın</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720982562078810/kalkan.png" alt="Tahta Kalkan"> Kalkan</td>
+				<td>Sağlam Tahta Kalkan</td>
+				<td class="hasarD">1</td>
+				<td class="savunmaD">27</td>
+				<td class="değer">30G</td>
+				<td class="nadir2">Nadir</td>
+			</tr>
+			<!-- -->			
+			
+			<!-- İksirlerin Bulunduğu Kısım -->
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720989675749416/iksir.png" alt="Mor İksir G."> İksir</td>
+				<td>Sağlık İksiri</td>
+				<td class="hasarD">0</td>
+				<td class="savunmaD">0</td>
+				<td class="değer">5G</td>
+				<td class="nadir1">Yaygın</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720989675749416/iksir.png" alt="Mor İksir G."> İksir</td>
+				<td>Enerji İksiri</td>
+				<td class="hasarD">0</td>
+				<td class="savunmaD">0</td>
+				<td class="değer">15G</td>
+				<td class="nadir2">Nadir</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720989675749416/iksir.png" alt="Mor İksir G."> İksir</td>
+				<td>Zehirli İksir</td>
+				<td class="hasarD">15</td>
+				<td class="savunmaD">0</td>
+				<td class="değer">30G</td>
+				<td class="nadir3">Efsane</td>
+			</tr>
+			<!-- -->
+			
+			<!--Fırlatılabilirlerin Bulunduğu Kısım -->			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720988237103194/tas.png" alt="Taş Görseli"> Fırlatılabilir</td>
+				<td>Taş</td>
+				<td class="hasarD">2</td>
+				<td class="savunmaD">-2</td>
+				<td class="değer">0</td>
+				<td class="nadir1">Her Yerde</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720988237103194/tas.png" alt="Taş Görseli"> Fırlatılabilir</td>
+				<td>Keskin Taş</td>
+				<td class="hasarD">5</td>
+				<td class="savunmaD">0</td>
+				<td class="değer">2G</td>
+				<td class="nadir1">Yaygın</td>
+			</tr>
+			
+			<tr>
+				<td><img src="https://cdn.discordapp.com/attachments/314465704214528001/699720988237103194/tas.png" alt="Taş Görseli"> Fırlatılabilir</td>
+				<td>Evcil Kaya</td>
+				<td class="hasarD">:eyes:</td>
+				<td class="savunmaD">100</td>
+				<td class="değer">900G</td>
+				<td class="nadir3">Aşırı Nadir</td>
+			</tr>
+			<!-- -->
+		</table>
+		<center><p style="color:white">Eşyaların Hangi Evrene Ait Olduğu Bilinmemektedir<p></center>
+	</body>
+</html>

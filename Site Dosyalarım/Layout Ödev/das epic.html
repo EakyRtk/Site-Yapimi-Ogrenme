@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>Karakter Sınıfları</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #0d6e6e;
+  border: 5px solid #267d7d;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #267d7d;
+  border: 5px solid #1a7575;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  border: 5px solid #1a7575;
+  background-color: #408c8c;
+  padding: 10px;
+}
+article.ikinci {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  border: 5px solid #1a7575;
+  background-color: #4c9494;
+  padding: 10px;
+}
+
+/* Style the footer :eyes: */
+/* kopi pasterino footprint */
+footer {
+  background-color: #006666;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #177474;
+  color: white;
+}
+a {
+  color: #cceeff;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body style="background-color:#8cbaba;">
+
+
+
+<header>
+  <h2>Temel Karakter Sınıfları</h2>
+</header>
+
+<section>
+    <nav>
+        <h3>Detaylı Açıklama Bağlantıları</h3>
+        <ul>
+          <li><a href="#">Kılıçlı Savaşçı</a></li>
+          <li><a href="#">Çay Bringer</a></li>
+          <li><a href="#">Okçu</a></li>
+        </ul>
+      </nav>
+  <article>
+    <h1>Kılıçlı Savaşçı</h1>
+    <p>Kendisini kılıç kullanma üzerine yetiştirmiş ve bu konuya hakim olmuş karakterdir.</p>
+    <p>Kılıçlı saldırıları +2 daha fazla vurur.</p>
+  </article>
+  <article class="ikinci">
+    <h1>Çay Bringer</h1>
+    <p>Binlerce yıl dünyada kendisini çaya ve çaya hükmetmeye adamış karakter sınıfıdır.</p>
+    <p>Oluşturulan karakterler bu sınıftan olamazlar. Tek atma güçleri vardır. Evrende üç Çay Bringer mevcuttur.</p>
+  </article>
+  <article>
+    <h1>Okçu</h1>
+    <p>Yay kullanıp uzaktaki elemanlara ok fırlatabilir.</p>
+    <p>Yakın dövüş konusunda iyi değillerdir. Diğer sınıflara göre +3 fazladan menzilli hasarı verirler.
+    İsabetlilik oranına +2 ile başlarlar.
+    </p>
+  </article>
+</section>
+
+<footer>
+  <p>Önceki Ödevlerime Göre Daha Okunabilir Bir Footer</p>
+</footer>
+
+<p style="font-size:2px; text-align:center;"> Footer was a lie</p>
+</body>
+</html>
